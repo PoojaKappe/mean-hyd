@@ -1,0 +1,15 @@
+/* pre{
+    border-style: dotted;
+    border-width: 2px;
+    border-color: coral;
+} */
+pre{
+    border:2px black double;
+    border-radius: 20px;
+    border-top-style: dotted;
+    background-color: blueviolet;
+}
+img{
+    border:10px dotted;
+    border-radius: 20px 40px 30px 20px;
+}

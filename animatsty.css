@@ -1,0 +1,30 @@
+.parent{
+    background-color:turquoise;
+    width: 500px;
+    height: 500px;
+}
+.child{
+    background-color:yellowgreen;
+    width: 35%;
+    height: 35%;
+     transition: transform 4s ;
+}
+.parent:hover .child{
+      transform: translateX(500px);
+     /* animation-duration: 4s; */
+    animation-name: teja; 
+} 
+@keyframes teja{
+    20%{
+        background-color: tomato;
+    }
+    40%{
+        background-color:teal;
+    }
+    60%{
+        background-color: violet;
+    }
+    80%{
+        background-color: fuchsia;
+    }
+} 

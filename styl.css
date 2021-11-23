@@ -1,0 +1,22 @@
+*{
+    color: brown;
+}
+
+h1{
+    color:chartreuse;
+}
+h1{
+    color: cornflowerblue;
+}
+a[href]{
+    color: darkgreen;
+}
+.header{
+    color:gold !important;
+}       
+#abc{
+    color: hotpink;
+}
+h1,h2,h3{
+    color: mediumseagreen;
+}

@@ -1,0 +1,12 @@
+ img:hover{
+    height: 250px;
+    width: 250px;
+    display: none;
+} 
+div{
+    
+    background-image: url(./ladakh.jpg);
+    height: 250px;
+    width: 250px;
+    background-repeat: no-repeat; 
+}
