@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./webpagestyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@100;800&family=Dancing+Script:wght@400;500;700&family=Oswald&display=swap"
+        rel="stylesheet">
+        
+        
+</head>
+
+<body class="body1">
+
+    <div>
+        <img src="./logo.png" height="150px" width="150px">
+
+
+
+    </div>
+    <div id="span"> <a href="./home.html"></a></div>
+    <div id="span"> <a href="./home.html">Home</a>
+    </div>
+    <h1>Register your details</h1>
+    <table>
+        <form action="./login.html" method="get">
+            <tr>
+                <td>
+                    <label for="">Name:</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter your name" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="">DOB</label></td>
+                <td><input type="date" placeholder="Enter your date of birth" required></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">Email Id:</label>
+                </td>
+                <td>
+                    <input type="email" placeholder="Enter your email id" required>
+                </td>
+            </tr>
+
+            <br><br>
+            <tr>
+                <td> <label for="">Phone No.:</label></td>
+                <td>
+                    <input type="number" placeholder="Enter your phone number" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label> <br> <br></td>
+                <td> <input type="radio" name="gender" required>Male <br>
+                    <input type="radio" name="gender">Female <br>
+                    <input type="radio" name="gender">Others
+                </td>
+            </tr>
+            <tr>
+                <td> <label>Place of travel:</label></td>
+
+
+                <td>
+                    <input list="browsers" name="browser" id="browser">
+                    <datalist id="browsers">
+                        <option value="Hyderabad">
+                        <option value="mumbai">
+                        <option value="Delhi">
+                        <option value="Jaipur">
+                        <option value="Bengaluru">
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td>
+                     </tr>
+
+        </form>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

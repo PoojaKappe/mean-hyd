@@ -1,0 +1,11 @@
+p{
+     color: brown;
+    /* text-align: justify; */
+    /* text-decoration:line-through; */
+    /* text-shadow: 2px 2px coral; */
+    /* text-overflow: ellipsis; */
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    
+    /* text-decoration: underline cornflowerblue; */
+}   

@@ -1,0 +1,21 @@
+.flex-container{
+    background-color: burlywood;
+     display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.flex-item{
+    width: 200px;
+    margin: 10px;   
+    background-color: darkblue;
+}
+.flex-item-1{
+    min-height: 100px;
+    
+}
+.flex-item-2{
+    min-height: 200px;
+}
+.flex-item-3{
+    min-height: 300px;
+}

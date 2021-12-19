@@ -1,0 +1,29 @@
+
+div{
+    background-color: burlywood;
+
+}
+
+
+
+
+
+#img1{
+    margin: 10px;
+    border: dotted;
+    padding: 10px ;
+    border-radius: 10px;
+}
+#img2{
+    
+    margin: 30px;
+    border: dotted;
+    padding: 10px 20px 40px 30px;
+
+}
+#img3{
+    
+    margin: 10px 20px 30px 40px;
+    border: dotted;
+    padding: 30px;
+}

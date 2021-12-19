@@ -1,0 +1,91 @@
+.navbar-dark .navbar-nav .nav-link {
+    
+    font-weight: 600;
+    font-size: larger!important;
+}
+
+#top{
+    background-color:skyblue !important;
+    padding: 0 10%;
+
+}
+#searchbox{
+    background-color:slategrey;
+   
+    border-radius: 5%;
+    border: 0px !important;
+    box-shadow: 5px 5px 5px grey;
+}
+#nav1{
+    padding-right: 30px;
+}
+#nav2{
+    padding-right: 30px;
+}
+#nav3{
+    padding-right: 30px;
+}
+#nav4{
+    padding-right: 30px;
+}
+#nav5{
+    padding-right: 30px;
+}
+
+#navbutton{
+    background-color: blue;
+    border-radius: 0%;
+    border: 0px;
+    box-shadow: 5px 5px 5px grey;
+}
+#searchbox::placeholder{
+    color:black;
+}
+#banner{
+background-color:rgb(233, 173, 173); 
+
+height: 500px;
+padding-top: 60px;
+}
+#bannerimg{
+    padding-top: 30px;
+    height: 350px;
+    width: 350px;
+}
+h1{
+    color: honeydew;
+}
+#bannertext{
+    padding-top: 40px;
+}
+#date1{
+color: black;
+border-radius: 10%;
+font-weight: 400;
+}
+.place{
+    color:black;
+    font-weight: 400;
+    
+}
+#footer{
+  
+    background-color:rgb(245, 226, 233); 
+}
+#addimg{
+    margin-left: 40px;
+    height: 100px;
+    width: 50px;
+    
+}
+#add{
+    margin-left: 40px;
+}
+#phoneimg{
+    height: 100px;
+    width: 50px;
+    margin-top: 40px;
+}
+#phone{
+    
+}
